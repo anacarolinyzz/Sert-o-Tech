@@ -3,7 +3,12 @@
 }
 body {
     padding: 1rem;
-    background:rgb(153, 149, 149);
+    background:rgb(88, 112, 124);
+    display: grid;
+    grid-template-columns: 23rem 23rem 23rem;
+    grid-template-rows: 3rem 15rem;
+    align-items: center;
+    justify-content: center;
 }
 .box {
     width: 20rem;
@@ -14,14 +19,29 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin: 1rem;
-    box-shadow: 2rem 1rem 2rem rgba(20, 20, 20, 0.3);
+    margin: 0.5rem;
+    box-shadow: 2rem 0.2rem 2rem rgba(20, 20, 20, 0.3);
     border-radius: 1rem;
     padding: 0.5rem;
 
 }
 .box img {
     width: 8rem;
+}
+h4 {
+    margin: 0;
+}
+.atv {
+    color: white;
+    background-color: #1d1d1d;
+    box-shadow: 1rem 0.1rem 1rem rgba(242, 239, 239, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    margin: 1rem;
 }
 .duvida {
     width: 100%;
@@ -33,15 +53,17 @@ body {
     width: 1rem;
 }
 .dica {
-    z-index: -1;
+    opacity: 0;
     margin: 1rem;
     position: absolute;
     width: 10rem;
     height: 2rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     background: #1d1d1d;
     color: white;
     border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
 
 }
