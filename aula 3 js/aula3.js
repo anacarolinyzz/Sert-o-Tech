@@ -54,4 +54,39 @@ btnlimpar.addEventListener('click', function() {
 });
 
 
+const imagens = [
+    { 
+        img : 'https://rounder.pics/assets/img/ui/square-image.webp',
+        nome : '',
+    },
+    {
+        img : '',
+        nome : '',
+    },
+    {
+        img : '',
+        nome : '',
+    },
+    {
+        img : '',
+        nome : '',
+    },
+]
+
+function criar_imagem() {
+    const imagem = document.getElementById('box3');
+    let htmlimg = '';
+
+    imagens.forEach (item => {
+        htmlimg += `<div class="boximg">
+            <img src="${img}" alt="">
+            <p>${nome}</p>
+            `;
+    });
+    imagem.insertAdjacentHTML('beforeend', htmlimg);
+};
+
+criar_imagem();
+
+
 

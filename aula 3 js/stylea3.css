@@ -38,12 +38,6 @@ body {
     top: 10rem;
     
 }
-.box3 {
-    margin: 2rem;
-    width: 10rem;
-    height: 10rem;
-    background-color: bisque;
-}
 button {
     border: none;
     background-color: rgb(43, 40, 40);
@@ -53,4 +47,17 @@ button {
 button:hover {
     background-color: #d7d7d7;
     color: black;
+}
+.box3 {
+    display: flex;
+}
+.boximg {
+    margin: 1rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(255, 255, 255);
+}
+.boximg img {
+    width: 8rem;
+    margin: 0.5rem;
 }
