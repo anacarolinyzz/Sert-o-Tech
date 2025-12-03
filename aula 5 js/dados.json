@@ -1,0 +1,22 @@
+[
+    {"nome": "Ana Caroliny",
+    "idade": 17,
+    "habilidades": ["CSS", "HTML", "JavaScript"], 
+    "ativo": true
+    },
+    {"nome": "Emylly Lorrany",
+    "idade": 16,
+    "habilidades": ["CSS", "HTML", "JavaScript"], 
+    "ativo": true
+    },
+    {"nome": "Rodrigo Silva",
+    "idade": 23,
+    "habilidades": ["CSS", "HTML", "JavaScript"], 
+    "ativo": true
+    },
+    {"nome": "Rick",
+    "idade": 18,
+    "habilidades": ["CSS", "HTML", "JavaScript"], 
+    "ativo": false
+    }
+]
